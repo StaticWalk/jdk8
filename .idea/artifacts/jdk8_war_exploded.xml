@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jdk8:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jdk8_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jdk8/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jdk8" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
