@@ -19,7 +19,7 @@ import java.util.Iterator;
  *  notify() if the current thread is not the owner of this object's monitor
  *  wait(long time,int nanos)
  */
-public class TestAbstracCollection {
+public class TestAbstractCollection {
 
 	//匿名内部类（实质是创建了一个AbstractCollection的子类）
 	AbstractCollection abstractCollection=new AbstractCollection() {
@@ -31,11 +31,12 @@ public class TestAbstracCollection {
 		public int size() {
 			return 0;
 		}
+//		public boolean add(E e){}
 	};
 	public static void main(String[] args) {
-		TestAbstracCollection testAbstracCollection=new TestAbstracCollection();
-		System.out.println(testAbstracCollection.abstractCollection.size());
-//		testAbstracCollection.abstractCollection.add("99");
-//		System.out.println(testAbstracCollection.abstractCollection.contains("00"));
+		TestAbstractCollection testAbstractCollection =new TestAbstractCollection();
+//		System.out.println(testAbstractCollection.abstractCollection.size());
+//		System.out.println(testAbstractCollection.abstractCollection.contains("00"));
+		System.out.println(testAbstractCollection.abstractCollection.toString());
 	}
 }
