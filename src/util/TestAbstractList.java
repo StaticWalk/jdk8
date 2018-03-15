@@ -7,7 +7,7 @@ import java.util.AbstractList;
  *
  * AbstractColltion抽象类本身以及被继承的时候，都有一个protected无参构造器
  * add(),remove(),set()的调用，抛出UnsupportedOperationException()
- *
+ * 实现了一个私有类Itr
  *
  *
  */
