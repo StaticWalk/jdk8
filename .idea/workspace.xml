@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef1e576-e596-4d7f-bc60-37a41113d6b2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ect/TransientTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/util/TestArrayDeque.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/jdk8.iml" afterPath="$PROJECT_DIR$/jdk8.iml" />
+      <change beforePath="$PROJECT_DIR$/src/ect/TransientTest.java" afterPath="$PROJECT_DIR$/src/ect/TransientTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,17 +143,17 @@
           <file leaf-file-name="TransientTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ect/TransientTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <state relative-caret-position="253">
+                  <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
                   <folding>
-                    <element signature="e#1564#1565#0" expanded="true" />
-                    <element signature="e#1586#1587#0" expanded="true" />
-                    <element signature="e#1631#1632#0" expanded="true" />
-                    <element signature="e#1662#1663#0" expanded="true" />
-                    <element signature="e#1692#1693#0" expanded="true" />
-                    <element signature="e#1712#1713#0" expanded="true" />
-                    <element signature="e#1753#1754#0" expanded="true" />
-                    <element signature="e#1780#1781#0" expanded="true" />
+                    <element signature="e#1651#1652#0" expanded="true" />
+                    <element signature="e#1673#1674#0" expanded="true" />
+                    <element signature="e#1718#1719#0" expanded="true" />
+                    <element signature="e#1749#1750#0" expanded="true" />
+                    <element signature="e#1779#1780#0" expanded="true" />
+                    <element signature="e#1799#1800#0" expanded="true" />
+                    <element signature="e#1840#1841#0" expanded="true" />
+                    <element signature="e#1867#1868#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -642,14 +638,14 @@
         <state relative-caret-position="276">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1586#1587#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -972,17 +968,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ect/TransientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1586#1587#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
           </folding>
         </state>
       </provider>
