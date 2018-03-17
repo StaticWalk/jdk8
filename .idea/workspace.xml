@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef1e576-e596-4d7f-bc60-37a41113d6b2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ect/ExternalizableTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/ect/TransientTest.java" afterPath="$PROJECT_DIR$/src/ect/TransientTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/util/TestArrayDeque.java" afterPath="$PROJECT_DIR$/src/util/TestArrayDeque.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,7 +109,7 @@
                       <point x="-33.75" y="17.5" />
                     </edge>
                   </edges>
-                  <settings layout="Hierarchic Group" zoom="1.0" x="398.5" y="50.0" />
+                  <settings layout="Hierarchic Group" zoom="1.0" x="398.5" y="187.5" />
                   <SelectedNodes />
                   <Categories />
                   <SCOPE>All</SCOPE>
@@ -120,7 +122,7 @@
             <entry file="file://$PROJECT_DIR$/src/util/TestArrayDeque.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="276">
-                  <caret line="12" column="1" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="12" selection-end-column="1" />
+                  <caret line="13" column="1" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -130,31 +132,12 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="TestArrayDeque.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="TestArrayDeque.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/util/TestArrayDeque.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="138">
-                  <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+                <state relative-caret-position="322">
+                  <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TransientTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ect/TransientTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#1651#1652#0" expanded="true" />
-                    <element signature="e#1673#1674#0" expanded="true" />
-                    <element signature="e#1718#1719#0" expanded="true" />
-                    <element signature="e#1749#1750#0" expanded="true" />
-                    <element signature="e#1779#1780#0" expanded="true" />
-                    <element signature="e#1799#1800#0" expanded="true" />
-                    <element signature="e#1840#1841#0" expanded="true" />
-                    <element signature="e#1867#1868#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -181,8 +164,9 @@
         <option value="$PROJECT_DIR$/src/util/TestAbstracList.java" />
         <option value="$PROJECT_DIR$/src/util/TestAbstractList.java" />
         <option value="$PROJECT_DIR$/src/util/TestConsumer.java" />
-        <option value="$PROJECT_DIR$/src/util/TestArrayDeque.java" />
+        <option value="$PROJECT_DIR$/src/ect/ExternalizableTest.java" />
         <option value="$PROJECT_DIR$/src/ect/TransientTest.java" />
+        <option value="$PROJECT_DIR$/src/util/TestArrayDeque.java" />
       </list>
     </option>
   </component>
@@ -290,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TransientTest">
+  <component name="RunManager" selected="Application.ExternalizableTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -298,8 +282,8 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="TestAbstractCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.TestAbstractCollection" />
+    <configuration name="ExternalizableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ect.ExternalizableTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -541,19 +525,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestAbstractCollection" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestAbstractList" />
-      <item index="2" class="java.lang.String" itemvalue="Application.convertTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestConsumer" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TransientTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestAbstractList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.convertTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestConsumer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TransientTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ExternalizableTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TransientTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestConsumer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.convertTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestAbstractList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestAbstractCollection" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ExternalizableTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TransientTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestConsumer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.convertTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestAbstractList" />
       </list>
     </recent_temporary>
   </component>
@@ -570,7 +554,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31321186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31321186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16523606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -600,7 +584,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -638,14 +622,14 @@
         <state relative-caret-position="276">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-            <element signature="e#1779#1780#0" expanded="true" />
-            <element signature="e#1799#1800#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -868,14 +852,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/sasa.java" />
-    <entry file="file://$PROJECT_DIR$/src/util/TestArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jdk-source/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -958,7 +934,7 @@
               <point x="-33.75" y="17.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="398.5" y="50.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="398.5" y="187.5" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -966,20 +942,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ect/ExternalizableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ect/TransientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="132">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-            <element signature="e#1779#1780#0" expanded="true" />
-            <element signature="e#1799#1800#0" expanded="true" />
-            <element signature="e#1840#1841#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/TestArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
