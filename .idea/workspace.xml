@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef1e576-e596-4d7f-bc60-37a41113d6b2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../jdk8/src/util/TestArrayList.java" />
+      <change beforePath="$PROJECT_DIR$/../jdk8/.idea/misc.xml" afterPath="$PROJECT_DIR$/../jdk8/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/../jdk8/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../jdk8/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../jdk8/src/util/TestArrayDeque.java" afterPath="$PROJECT_DIR$/../jdk8/src/util/TestArrayDeque.java" />
+      <change beforePath="$PROJECT_DIR$/../jdk8/jdk8.iml" afterPath="$PROJECT_DIR$/../jdk8/jdk8.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,47 +19,111 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46679562">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/ArrayList.java">
+          <file leaf-file-name="TestArrayList.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../jdk8/src/util/TestArrayList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="368">
+                  <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ArrayDeque.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/ArrayDeque.java">
+          <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="true">
+            <entry file="jar://$PROJECT_DIR$/../java1/src.zip!/java/util/ArrayList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="245" column="57" lean-forward="true" selection-start-line="245" selection-start-column="57" selection-end-line="245" selection-end-column="57" />
+                <state relative-caret-position="418">
+                  <caret line="164" column="61" lean-forward="false" selection-start-line="164" selection-start-column="61" selection-end-line="164" selection-end-column="61" />
                   <folding>
-                    <element signature="e#0#32899#0" expanded="true" />
-                    <element signature="method#allocateElements#0;class#ArrayDeque#0" expanded="false" />
-                    <element signature="method#doubleCapacity#0;class#ArrayDeque#0" expanded="false" />
-                    <element signature="e#6490#6491#0" expanded="true" />
-                    <element signature="e#6531#6532#0" expanded="true" />
-                    <element signature="e#19038#19039#0" expanded="true" />
-                    <element signature="e#19098#19099#0" expanded="true" />
-                    <element signature="e#19280#19281#0" expanded="true" />
-                    <element signature="e#19315#19316#0" expanded="true" />
+                    <element signature="e#6252#6253#0" expanded="true" />
+                    <element signature="e#6320#6321#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
-            <entry file="jar://$PROJECT_DIR$/../java1/src.zip!/java/lang/System.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-161">
-                  <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+          <file leaf-file-name="JAVA/java.util.ArrayList" pinned="false" current-in-tab="false">
+            <entry file="uml://JAVA/java.util.ArrayList">
+              <provider selected="true" editor-type-id="UmlEditorProvider">
+                <state>
+                  <ID>JAVA</ID>
+                  <OriginalElement>java.util.ArrayList</OriginalElement>
+                  <nodes>
+                    <node x="317.0" y="255.0">java.util.RandomAccess</node>
+                    <node x="0.0" y="255.0">java.lang.Cloneable</node>
+                    <node x="447.5" y="170.0">java.util.AbstractCollection</node>
+                    <node x="664.5" y="170.0">java.util.List</node>
+                    <node x="559.75" y="85.0">java.util.Collection</node>
+                    <node x="509.0" y="255.0">java.util.AbstractList</node>
+                    <node x="568.75" y="0.0">java.lang.Iterable</node>
+                    <node x="340.5" y="340.0">java.util.ArrayList</node>
+                    <node x="154.0" y="255.0">java.io.Serializable</node>
+                  </nodes>
+                  <notes />
+                  <edges>
+                    <edge source="java.util.ArrayList" target="java.lang.Cloneable">
+                      <point x="-50.0" y="-17.5" />
+                      <point x="353.0" y="320.0" />
+                      <point x="67.0" y="320.0" />
+                      <point x="0.0" y="17.5" />
+                    </edge>
+                    <edge source="java.util.ArrayList" target="java.util.RandomAccess">
+                      <point x="0.0" y="-17.5" />
+                      <point x="0.0" y="17.5" />
+                    </edge>
+                    <edge source="java.util.ArrayList" target="java.io.Serializable">
+                      <point x="-25.0" y="-17.5" />
+                      <point x="378.0" y="310.0" />
+                      <point x="225.5" y="310.0" />
+                      <point x="0.0" y="17.5" />
+                    </edge>
+                    <edge source="java.util.List" target="java.util.Collection">
+                      <point x="0.0" y="-17.5" />
+                      <point x="707.5" y="145.0" />
+                      <point x="661.0" y="145.0" />
+                      <point x="33.75" y="17.5" />
+                    </edge>
+                    <edge source="java.util.Collection" target="java.lang.Iterable">
+                      <point x="0.0" y="-17.5" />
+                      <point x="0.0" y="17.5" />
+                    </edge>
+                    <edge source="java.util.AbstractList" target="java.util.List">
+                      <point x="37.0" y="-17.5" />
+                      <point x="620.0" y="230.0" />
+                      <point x="686.0" y="230.0" />
+                      <point x="-21.5" y="17.5" />
+                    </edge>
+                    <edge source="java.util.ArrayList" target="java.util.List">
+                      <point x="50.0" y="-17.5" />
+                      <point x="453.0" y="320.0" />
+                      <point x="729.0" y="320.0" />
+                      <point x="21.5" y="17.5" />
+                    </edge>
+                    <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+                      <point x="-37.0" y="-17.5" />
+                      <point x="0.0" y="17.5" />
+                    </edge>
+                    <edge source="java.util.AbstractCollection" target="java.util.Collection">
+                      <point x="0.0" y="-17.5" />
+                      <point x="546.0" y="145.0" />
+                      <point x="593.5" y="145.0" />
+                      <point x="-33.75" y="17.5" />
+                    </edge>
+                    <edge source="java.util.ArrayList" target="java.util.AbstractList">
+                      <point x="25.0" y="-17.5" />
+                      <point x="428.0" y="310.0" />
+                      <point x="583.0" y="310.0" />
+                      <point x="0.0" y="17.5" />
+                    </edge>
+                  </edges>
+                  <settings layout="Hierarchic Group" zoom="1.0" x="160.0" y="64.5" />
+                  <SelectedNodes />
+                  <Categories />
+                  <SCOPE>All</SCOPE>
+                  <VISIBILITY>private</VISIBILITY>
                 </state>
               </provider>
             </entry>
@@ -65,12 +131,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="TestArrayDeque.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../jdk8/src/util/TestArrayDeque.java">
+        <leaf>
+          <file leaf-file-name="TestArrayList.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../jdk8/src/util/TestArrayList.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+                <state relative-caret-position="414">
+                  <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -104,7 +170,9 @@
         <option value="$PROJECT_DIR$/src/util/TestArrayDeque.java" />
         <option value="$PROJECT_DIR$/src/util/TestArrayDeque.java" />
         <option value="$PROJECT_DIR$/src/ect/Solution.java" />
-        <option value="$PROJECT_DIR$/../jdk8/src/util/TestArrayDeque.java" />
+        <option value="$PROJECT_DIR$/src/util/TestArrayDeque.java" />
+        <option value="$PROJECT_DIR$/src/util/TestArrayList.java" />
+        <option value="$PROJECT_DIR$/../jdk8/src/util/TestArrayList.java" />
       </list>
     </option>
   </component>
@@ -114,6 +182,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/..//maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
@@ -122,7 +198,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -135,48 +211,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayDeque" type="1a9f42e2:ClassTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -186,7 +221,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/..//////funDev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..///////funDev" />
+    <property name="SearchEverywhereHistoryKey" value="ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList.ArrayListSpliterator&#10;Arra&#9;PSI&#9;JAVA://java.util.ArrayList" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -484,21 +520,21 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31321186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31321186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16791846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3428246" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3428246" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -520,71 +556,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2162">
-          <caret line="127" column="55" lean-forward="false" selection-start-line="127" selection-start-column="55" selection-end-line="127" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#32899#0" expanded="true" />
-            <element signature="method#allocateElements#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="method#doubleCapacity#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="e#6490#6491#0" expanded="true" />
-            <element signature="e#6531#6532#0" expanded="true" />
-            <element signature="e#19038#19039#0" expanded="true" />
-            <element signature="e#19098#19099#0" expanded="true" />
-            <element signature="e#19280#19281#0" expanded="true" />
-            <element signature="e#19315#19316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jdk8/src/util/TestArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2116">
-          <caret line="125" column="52" lean-forward="false" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#32899#0" expanded="true" />
-            <element signature="method#allocateElements#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="method#doubleCapacity#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="e#6490#6491#0" expanded="true" />
-            <element signature="e#6531#6532#0" expanded="true" />
-            <element signature="e#19038#19039#0" expanded="true" />
-            <element signature="e#19098#19099#0" expanded="true" />
-            <element signature="e#19280#19281#0" expanded="true" />
-            <element signature="e#19315#19316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jdk8/src/util/TestArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,17 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2254">
           <caret line="131" column="11" lean-forward="false" selection-start-line="131" selection-start-column="11" selection-end-line="131" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#32899#0" expanded="true" />
-            <element signature="method#allocateElements#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="method#doubleCapacity#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="e#6490#6491#0" expanded="true" />
-            <element signature="e#6531#6532#0" expanded="true" />
-            <element signature="e#19038#19039#0" expanded="true" />
-            <element signature="e#19098#19099#0" expanded="true" />
-            <element signature="e#19280#19281#0" expanded="true" />
-            <element signature="e#19315#19316#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,7 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,17 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#32899#0" expanded="true" />
-            <element signature="method#allocateElements#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="method#doubleCapacity#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="e#6490#6491#0" expanded="true" />
-            <element signature="e#6531#6532#0" expanded="true" />
-            <element signature="e#19038#19039#0" expanded="true" />
-            <element signature="e#19098#19099#0" expanded="true" />
-            <element signature="e#19280#19281#0" expanded="true" />
-            <element signature="e#19315#19316#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../java1/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../java1/src.zip!/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4075">
@@ -845,14 +789,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../jdk8/src/util/sasa.java" />
-    <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../jdk8/src/ect/ExternalizableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -881,7 +817,7 @@
         <state relative-caret-position="-161">
           <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -891,36 +827,154 @@
         <state relative-caret-position="191">
           <caret line="3054" column="43" lean-forward="true" selection-start-line="3054" selection-start-column="43" selection-end-line="3054" selection-end-column="43" />
           <folding>
-            <element signature="e#118405#118406#0" expanded="true" />
-            <element signature="e#118444#118445#0" expanded="true" />
-            <element signature="e#120482#120483#0" expanded="true" />
-            <element signature="e#120521#120522#0" expanded="true" />
+            <element signature="e#118405#118406#0" expanded="false" />
+            <element signature="e#118444#118445#0" expanded="false" />
+            <element signature="e#120482#120483#0" expanded="false" />
+            <element signature="e#120521#120522#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="302">
           <caret line="245" column="57" lean-forward="true" selection-start-line="245" selection-start-column="57" selection-end-line="245" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#32899#0" expanded="true" />
-            <element signature="method#allocateElements#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="method#doubleCapacity#0;class#ArrayDeque#0" expanded="false" />
-            <element signature="e#6490#6491#0" expanded="true" />
-            <element signature="e#6531#6532#0" expanded="true" />
-            <element signature="e#19038#19039#0" expanded="true" />
-            <element signature="e#19098#19099#0" expanded="true" />
-            <element signature="e#19280#19281#0" expanded="true" />
-            <element signature="e#19315#19316#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../jdk8/src/util/TestArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        <state relative-caret-position="69">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="3802" column="7" lean-forward="true" selection-start-line="3802" selection-start-column="7" selection-end-line="3802" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jdk8/jdk-source/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java1/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java1/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="70" column="54" lean-forward="false" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.ArrayList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.ArrayList</OriginalElement>
+          <nodes>
+            <node x="317.0" y="255.0">java.util.RandomAccess</node>
+            <node x="0.0" y="255.0">java.lang.Cloneable</node>
+            <node x="447.5" y="170.0">java.util.AbstractCollection</node>
+            <node x="664.5" y="170.0">java.util.List</node>
+            <node x="559.75" y="85.0">java.util.Collection</node>
+            <node x="509.0" y="255.0">java.util.AbstractList</node>
+            <node x="568.75" y="0.0">java.lang.Iterable</node>
+            <node x="340.5" y="340.0">java.util.ArrayList</node>
+            <node x="154.0" y="255.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.ArrayList" target="java.lang.Cloneable">
+              <point x="-50.0" y="-17.5" />
+              <point x="353.0" y="320.0" />
+              <point x="67.0" y="320.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.RandomAccess">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.io.Serializable">
+              <point x="-25.0" y="-17.5" />
+              <point x="378.0" y="310.0" />
+              <point x="225.5" y="310.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.List" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="707.5" y="145.0" />
+              <point x="661.0" y="145.0" />
+              <point x="33.75" y="17.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.List">
+              <point x="37.0" y="-17.5" />
+              <point x="620.0" y="230.0" />
+              <point x="686.0" y="230.0" />
+              <point x="-21.5" y="17.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.List">
+              <point x="50.0" y="-17.5" />
+              <point x="453.0" y="320.0" />
+              <point x="729.0" y="320.0" />
+              <point x="21.5" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+              <point x="-37.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="546.0" y="145.0" />
+              <point x="593.5" y="145.0" />
+              <point x="-33.75" y="17.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.AbstractList">
+              <point x="25.0" y="-17.5" />
+              <point x="428.0" y="310.0" />
+              <point x="583.0" y="310.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="160.0" y="64.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java1/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="164" column="61" lean-forward="false" selection-start-line="164" selection-start-column="61" selection-end-line="164" selection-end-column="61" />
+          <folding>
+            <element signature="e#6252#6253#0" expanded="true" />
+            <element signature="e#6320#6321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jdk8/src/util/TestArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding />
         </state>
       </provider>
