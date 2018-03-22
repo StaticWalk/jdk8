@@ -5,9 +5,7 @@ package ect;
  * Data:2018/3/20
  * Time:20:47
  */
-import java.util.ArrayList;
 public class Solution {
-	public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
-
-	}
+//	public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+//	}
 }
