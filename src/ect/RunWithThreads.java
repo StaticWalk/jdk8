@@ -24,13 +24,14 @@ public class RunWithThreads {
 
 	static ArrayList<Integer> list = new ArrayList<Integer>();
 	public static void main(String[] args)  {
+
 		list.add(1);
 		list.add(2);
 		list.add(3);
 		list.add(4);
 		list.add(5);
 		Thread thread1 = new Thread(){
-			public void run() {
+			public  void run() {
 				Iterator<Integer> iterator = list.iterator();
 				while(iterator.hasNext()){
 					Integer integer = iterator.next();
@@ -44,7 +45,13 @@ public class RunWithThreads {
 			};
 		};
 		Thread thread2 = new Thread(){
-			public void run() {
+
+//			public void synchronized ss(){
+//				Iterator<Integer> iterator = list.iterator();
+//				iterator.remove();
+//			}
+
+			public  void run() {
 				Iterator<Integer> iterator = list.iterator();
 				while(iterator.hasNext()){
 					Integer integer = iterator.next();

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef1e576-e596-4d7f-bc60-37a41113d6b2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/util/TestVector.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/jdk8.iml" afterPath="$PROJECT_DIR$/jdk8.iml" />
       <change beforePath="$PROJECT_DIR$/src/ect/RunWithThreads.java" afterPath="$PROJECT_DIR$/src/ect/RunWithThreads.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,174 +19,186 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5391631">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="TestArrayList.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/util/TestArrayList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="true">
-            <entry file="jar://D:/java1/src.zip!/java/util/ArrayList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="887" column="60" lean-forward="true" selection-start-line="887" selection-start-column="60" selection-end-line="887" selection-end-column="60" />
-                  <folding>
-                    <element signature="method#ArrayList#0;class#ArrayList#0" expanded="false" />
-                    <element signature="method#ArrayList#2;class#ArrayList#0" expanded="false" />
-                    <element signature="e#31041#31042#0" expanded="true" />
-                    <element signature="e#31086#31087#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JAVA/java.util.ArrayList" pinned="false" current-in-tab="false">
-            <entry file="uml://JAVA/java.util.ArrayList">
-              <provider selected="true" editor-type-id="UmlEditorProvider">
-                <state>
-                  <ID>JAVA</ID>
-                  <OriginalElement>java.util.ArrayList</OriginalElement>
-                  <nodes>
-                    <node x="163.00000000000006" y="255.0">java.util.RandomAccess</node>
-                    <node x="585.5" y="255.0">java.lang.Cloneable</node>
-                    <node x="510.50000000000006" y="170.0">java.util.List</node>
-                    <node x="293.50000000000006" y="170.0">java.util.AbstractCollection</node>
-                    <node x="411.95000000000005" y="85.0">java.util.Collection</node>
-                    <node x="355.00000000000006" y="255.0">java.util.AbstractList</node>
-                    <node x="420.95000000000005" y="0.0">java.lang.Iterable</node>
-                    <node x="366.50000000000006" y="340.0">java.util.ArrayList</node>
-                    <node x="0.0" y="255.0">java.io.Serializable</node>
-                  </nodes>
-                  <notes />
-                  <edges>
-                    <edge source="java.util.ArrayList" target="java.lang.Cloneable">
-                      <point x="50.0" y="-17.5" />
-                      <point x="479.00000000000006" y="320.0" />
-                      <point x="652.5" y="320.0" />
-                      <point x="0.0" y="17.5" />
-                    </edge>
-                    <edge source="java.util.ArrayList" target="java.util.RandomAccess">
-                      <point x="-25.0" y="-17.5" />
-                      <point x="404.00000000000006" y="310.0" />
-                      <point x="249.00000000000006" y="310.0" />
-                      <point x="0.0" y="17.5" />
-                    </edge>
-                    <edge source="java.util.ArrayList" target="java.io.Serializable">
-                      <point x="-50.0" y="-17.5" />
-                      <point x="379.00000000000006" y="320.0" />
-                      <point x="71.5" y="320.0" />
-                      <point x="0.0" y="17.5" />
-                    </edge>
-                    <edge source="java.util.List" target="java.util.Collection">
-                      <point x="0.0" y="-17.5" />
-                      <point x="553.5" y="145.0" />
-                      <point x="513.2" y="145.0" />
-                      <point x="33.75" y="17.5" />
-                    </edge>
-                    <edge source="java.util.AbstractList" target="java.util.List">
-                      <point x="36.99999999999997" y="-17.5" />
-                      <point x="466.0" y="230.0" />
-                      <point x="532.0" y="230.0" />
-                      <point x="-21.5" y="17.5" />
-                    </edge>
-                    <edge source="java.util.Collection" target="java.lang.Iterable">
-                      <point x="0.0" y="-17.5" />
-                      <point x="0.0" y="17.5" />
-                    </edge>
-                    <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
-                      <point x="-37.00000000000003" y="-17.5" />
-                      <point x="0.0" y="17.5" />
-                    </edge>
-                    <edge source="java.util.ArrayList" target="java.util.List">
-                      <point x="25.0" y="-17.5" />
-                      <point x="454.00000000000006" y="310.0" />
-                      <point x="575.0" y="310.0" />
-                      <point x="21.500000000000014" y="17.5" />
-                    </edge>
-                    <edge source="java.util.AbstractCollection" target="java.util.Collection">
-                      <point x="-2.8421709430404007E-14" y="-17.5" />
-                      <point x="392.0" y="145.0" />
-                      <point x="445.70000000000005" y="145.0" />
-                      <point x="-33.75" y="17.5" />
-                    </edge>
-                    <edge source="java.util.ArrayList" target="java.util.AbstractList">
-                      <point x="0.0" y="-17.5" />
-                      <point x="0.0" y="17.5" />
-                    </edge>
-                  </edges>
-                  <settings layout="Hierarchic Group" zoom="1.0486486486486488" x="154.95833333333326" y="136.60910652920955" />
-                  <SelectedNodes />
-                  <Categories />
-                  <SCOPE>All</SCOPE>
-                  <VISIBILITY>private</VISIBILITY>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="TestArrayList.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/util/TestArrayList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1058">
-                  <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ModCount.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ect/ModCount.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="159">
-                  <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#848#857#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RunWithThreads.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ect/RunWithThreads.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#673#682#0" expanded="true" />
-                    <element signature="e#823#1140#0" expanded="true" />
-                    <element signature="e#1139#1140#0" expanded="true" />
-                    <element signature="e#1161#1415#0" expanded="true" />
-                    <element signature="e#1414#1415#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TransientTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ect/TransientTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1357">
-                  <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="RunWithThreads.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ect/RunWithThreads.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <element signature="e#824#1142#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jdk-source/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="106" column="21" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jdk-source/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6831">
+              <caret line="404" column="29" lean-forward="true" selection-start-line="404" selection-start-column="29" selection-end-line="404" selection-end-column="29" />
+              <folding>
+                <element signature="e#5447#5448#0" expanded="true" />
+                <element signature="e#5487#5488#0" expanded="true" />
+                <element signature="method#grow#0;class#Vector#0" expanded="false" />
+                <element signature="method#hugeCapacity#0;class#Vector#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java1/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-637">
+              <caret line="206" column="13" lean-forward="false" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java1/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/java.util.Vector" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/java.util.Vector">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>java.util.Vector</OriginalElement>
+              <nodes>
+                <node x="547.5" y="255.0">java.util.RandomAccess</node>
+                <node x="92.50000000000003" y="170.0">java.util.AbstractCollection</node>
+                <node x="309.5" y="170.0">java.util.List</node>
+                <node x="0.0" y="255.0">java.lang.Cloneable</node>
+                <node x="319.0" y="340.0">java.util.Vector</node>
+                <node x="206.62500000000006" y="85.0">java.util.Collection</node>
+                <node x="154.00000000000003" y="255.0">java.util.AbstractList</node>
+                <node x="215.62500000000006" y="0.0">java.lang.Iterable</node>
+                <node x="384.5" y="255.0">java.io.Serializable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="java.util.Vector" target="java.io.Serializable">
+                  <point x="22.0" y="-17.5" />
+                  <point x="396.0" y="310.0" />
+                  <point x="456.0" y="310.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.Vector" target="java.util.AbstractList">
+                  <point x="-22.0" y="-17.5" />
+                  <point x="352.0" y="310.0" />
+                  <point x="228.00000000000003" y="310.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.Vector" target="java.lang.Cloneable">
+                  <point x="-44.0" y="-17.5" />
+                  <point x="330.0" y="320.0" />
+                  <point x="67.0" y="320.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.Vector" target="java.util.List">
+                  <point x="0.0" y="-17.5" />
+                  <point x="21.5" y="17.5" />
+                </edge>
+                <edge source="java.util.List" target="java.util.Collection">
+                  <point x="0.0" y="-17.5" />
+                  <point x="352.5" y="145.0" />
+                  <point x="307.87500000000006" y="145.0" />
+                  <point x="33.75" y="17.5" />
+                </edge>
+                <edge source="java.util.AbstractList" target="java.util.List">
+                  <point x="37.0" y="-17.5" />
+                  <point x="265.0" y="230.0" />
+                  <point x="331.0" y="230.0" />
+                  <point x="-21.5" y="17.5" />
+                </edge>
+                <edge source="java.util.Collection" target="java.lang.Iterable">
+                  <point x="0.0" y="-17.5" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+                  <point x="-37.0" y="-17.5" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.AbstractCollection" target="java.util.Collection">
+                  <point x="0.0" y="-17.5" />
+                  <point x="191.00000000000003" y="145.0" />
+                  <point x="240.37500000000006" y="145.0" />
+                  <point x="-33.75" y="17.5" />
+                </edge>
+                <edge source="java.util.Vector" target="java.util.RandomAccess">
+                  <point x="44.0" y="-17.5" />
+                  <point x="418.0" y="320.0" />
+                  <point x="633.5" y="320.0" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-154.0" y="20.0" />
+              <SelectedNodes>
+                <node>java.util.Vector</node>
+                <node>java.io.Serializable</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/java.util.List" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/java.util.List">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>java.util.List</OriginalElement>
+              <nodes>
+                <node x="24.5" y="170.0">java.util.List</node>
+                <node x="0.0" y="85.0">java.util.Collection</node>
+                <node x="9.0" y="0.0">java.lang.Iterable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="java.util.List" target="java.util.Collection">
+                  <point x="0.0" y="-17.5" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+                <edge source="java.util.Collection" target="java.lang.Iterable">
+                  <point x="0.0" y="-17.5" />
+                  <point x="0.0" y="17.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-624.5" y="-47.0" />
+              <SelectedNodes>
+                <node>java.util.List</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -225,6 +239,7 @@
         <option value="$PROJECT_DIR$/src/util/TestArrayList.java" />
         <option value="$PROJECT_DIR$/src/ect/ModCount.java" />
         <option value="$PROJECT_DIR$/src/ect/RunWithThreads.java" />
+        <option value="$PROJECT_DIR$/src/util/TestVector.java" />
       </list>
     </option>
   </component>
@@ -274,6 +289,24 @@
             <path>
               <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdk8" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -293,12 +326,12 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.23631625" />
@@ -606,9 +639,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2813212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813212" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13948497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19098713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -640,70 +673,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/sasa.java" />
-    <entry file="file://$PROJECT_DIR$/src/util/TestAbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ect/convertTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/TestAbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/TestConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/TestAbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ect/convertTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/TestAbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/TestConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -781,24 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java1/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4075">
-          <caret line="200" column="24" lean-forward="false" selection-start-line="200" selection-start-column="24" selection-end-line="200" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java1/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="60" column="41" lean-forward="false" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -868,12 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="3054" column="43" lean-forward="true" selection-start-line="3054" selection-start-column="43" selection-end-line="3054" selection-end-column="43" />
-          <folding>
-            <element signature="e#118405#118406#0" expanded="false" />
-            <element signature="e#118444#118445#0" expanded="false" />
-            <element signature="e#120482#120483#0" expanded="false" />
-            <element signature="e#120521#120522#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -898,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java1/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -916,14 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ect/TransientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,80 +888,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/java.util.ArrayList">
+    <entry file="file://$PROJECT_DIR$/src/ect/TransientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/ect.RunWithThreads">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
-          <OriginalElement>java.util.ArrayList</OriginalElement>
+          <OriginalElement>ect.RunWithThreads</OriginalElement>
           <nodes>
-            <node x="163.00000000000006" y="255.0">java.util.RandomAccess</node>
-            <node x="585.5" y="255.0">java.lang.Cloneable</node>
-            <node x="510.50000000000006" y="170.0">java.util.List</node>
-            <node x="293.50000000000006" y="170.0">java.util.AbstractCollection</node>
-            <node x="411.95000000000005" y="85.0">java.util.Collection</node>
-            <node x="355.00000000000006" y="255.0">java.util.AbstractList</node>
-            <node x="420.95000000000005" y="0.0">java.lang.Iterable</node>
-            <node x="366.50000000000006" y="340.0">java.util.ArrayList</node>
-            <node x="0.0" y="255.0">java.io.Serializable</node>
+            <node x="" y="">ect.RunWithThreads</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="java.util.ArrayList" target="java.lang.Cloneable">
-              <point x="50.0" y="-17.5" />
-              <point x="479.00000000000006" y="320.0" />
-              <point x="652.5" y="320.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="java.util.ArrayList" target="java.util.RandomAccess">
-              <point x="-25.0" y="-17.5" />
-              <point x="404.00000000000006" y="310.0" />
-              <point x="249.00000000000006" y="310.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="java.util.ArrayList" target="java.io.Serializable">
-              <point x="-50.0" y="-17.5" />
-              <point x="379.00000000000006" y="320.0" />
-              <point x="71.5" y="320.0" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="java.util.List" target="java.util.Collection">
-              <point x="0.0" y="-17.5" />
-              <point x="553.5" y="145.0" />
-              <point x="513.2" y="145.0" />
-              <point x="33.75" y="17.5" />
-            </edge>
-            <edge source="java.util.AbstractList" target="java.util.List">
-              <point x="36.99999999999997" y="-17.5" />
-              <point x="466.0" y="230.0" />
-              <point x="532.0" y="230.0" />
-              <point x="-21.5" y="17.5" />
-            </edge>
-            <edge source="java.util.Collection" target="java.lang.Iterable">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
-              <point x="-37.00000000000003" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-            <edge source="java.util.ArrayList" target="java.util.List">
-              <point x="25.0" y="-17.5" />
-              <point x="454.00000000000006" y="310.0" />
-              <point x="575.0" y="310.0" />
-              <point x="21.500000000000014" y="17.5" />
-            </edge>
-            <edge source="java.util.AbstractCollection" target="java.util.Collection">
-              <point x="-2.8421709430404007E-14" y="-17.5" />
-              <point x="392.0" y="145.0" />
-              <point x="445.70000000000005" y="145.0" />
-              <point x="-33.75" y="17.5" />
-            </edge>
-            <edge source="java.util.ArrayList" target="java.util.AbstractList">
-              <point x="0.0" y="-17.5" />
-              <point x="0.0" y="17.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0486486486486488" x="154.95833333333326" y="136.60910652920955" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="90.5" y="17.5" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1035,49 +914,352 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ect/ModCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/java1/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="887" column="60" lean-forward="true" selection-start-line="887" selection-start-column="60" selection-end-line="887" selection-end-column="60" />
+        <state relative-caret-position="207">
+          <caret line="897" column="0" lean-forward="true" selection-start-line="897" selection-start-column="0" selection-end-line="897" selection-end-column="0" />
           <folding>
             <element signature="method#ArrayList#0;class#ArrayList#0" expanded="false" />
             <element signature="method#ArrayList#2;class#ArrayList#0" expanded="false" />
-            <element signature="e#31041#31042#0" expanded="true" />
-            <element signature="e#31086#31087#0" expanded="true" />
+            <element signature="e#31041#31042#0" expanded="false" />
+            <element signature="e#31086#31087#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/TestArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="46" column="2" lean-forward="false" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        <state relative-caret-position="523">
+          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ect/ModCount.java">
+    <entry file="uml://JAVA/java.util.AbstractCollection">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.AbstractCollection</OriginalElement>
+          <nodes>
+            <node x="0.0" y="176.0">java.util.AbstractCollection</node>
+            <node x="28.5" y="88.0">java.util.Collection</node>
+            <node x="37.5" y="0.0">java.lang.Iterable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-19.0" />
+              <point x="0.0" y="19.0" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="19.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-434.5" y="-62.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="690">
+          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.ArrayList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.ArrayList</OriginalElement>
+          <nodes>
+            <node x="317.0" y="255.0">java.util.RandomAccess</node>
+            <node x="447.5" y="170.0">java.util.AbstractCollection</node>
+            <node x="664.5" y="170.0">java.util.List</node>
+            <node x="0.0" y="255.0">java.lang.Cloneable</node>
+            <node x="559.75" y="85.0">java.util.Collection</node>
+            <node x="509.0" y="255.0">java.util.AbstractList</node>
+            <node x="568.75" y="0.0">java.lang.Iterable</node>
+            <node x="154.0" y="255.0">java.io.Serializable</node>
+            <node x="338.0" y="340.0">java.util.ArrayList</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.ArrayList" target="java.lang.Cloneable">
+              <point x="-52.0" y="-19.0" />
+              <point x="351.0" y="320.0" />
+              <point x="67.0" y="320.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.RandomAccess">
+              <point x="0.0" y="-19.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.io.Serializable">
+              <point x="-26.0" y="-19.0" />
+              <point x="377.0" y="310.0" />
+              <point x="225.5" y="310.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.List" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="707.5" y="145.0" />
+              <point x="661.0" y="145.0" />
+              <point x="33.75" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.List">
+              <point x="37.0" y="-17.5" />
+              <point x="620.0" y="230.0" />
+              <point x="686.0" y="230.0" />
+              <point x="-21.5" y="17.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+              <point x="-37.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.List">
+              <point x="52.0" y="-19.0" />
+              <point x="455.0" y="320.0" />
+              <point x="729.0" y="320.0" />
+              <point x="21.5" y="17.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.AbstractList">
+              <point x="26.0" y="-19.0" />
+              <point x="429.0" y="310.0" />
+              <point x="583.0" y="310.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="546.0" y="145.0" />
+              <point x="593.5" y="145.0" />
+              <point x="-33.75" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-138.5" y="21.5" />
+          <SelectedNodes>
+            <node>java.util.ArrayList</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="200" column="35" lean-forward="false" selection-start-line="200" selection-start-column="35" selection-end-line="200" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.Vector">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Vector</OriginalElement>
+          <nodes>
+            <node x="547.5" y="255.0">java.util.RandomAccess</node>
+            <node x="92.50000000000003" y="170.0">java.util.AbstractCollection</node>
+            <node x="309.5" y="170.0">java.util.List</node>
+            <node x="0.0" y="255.0">java.lang.Cloneable</node>
+            <node x="319.0" y="340.0">java.util.Vector</node>
+            <node x="206.62500000000006" y="85.0">java.util.Collection</node>
+            <node x="154.00000000000003" y="255.0">java.util.AbstractList</node>
+            <node x="215.62500000000006" y="0.0">java.lang.Iterable</node>
+            <node x="384.5" y="255.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.Vector" target="java.io.Serializable">
+              <point x="22.0" y="-17.5" />
+              <point x="396.0" y="310.0" />
+              <point x="456.0" y="310.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.Vector" target="java.util.AbstractList">
+              <point x="-22.0" y="-17.5" />
+              <point x="352.0" y="310.0" />
+              <point x="228.00000000000003" y="310.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.Vector" target="java.lang.Cloneable">
+              <point x="-44.0" y="-17.5" />
+              <point x="330.0" y="320.0" />
+              <point x="67.0" y="320.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.Vector" target="java.util.List">
+              <point x="0.0" y="-17.5" />
+              <point x="21.5" y="17.5" />
+            </edge>
+            <edge source="java.util.List" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="352.5" y="145.0" />
+              <point x="307.87500000000006" y="145.0" />
+              <point x="33.75" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.List">
+              <point x="37.0" y="-17.5" />
+              <point x="265.0" y="230.0" />
+              <point x="331.0" y="230.0" />
+              <point x="-21.5" y="17.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+              <point x="-37.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="191.00000000000003" y="145.0" />
+              <point x="240.37500000000006" y="145.0" />
+              <point x="-33.75" y="17.5" />
+            </edge>
+            <edge source="java.util.Vector" target="java.util.RandomAccess">
+              <point x="44.0" y="-17.5" />
+              <point x="418.0" y="320.0" />
+              <point x="633.5" y="320.0" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-154.0" y="20.0" />
+          <SelectedNodes>
+            <node>java.util.Vector</node>
+            <node>java.io.Serializable</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="409" column="18" lean-forward="false" selection-start-line="409" selection-start-column="18" selection-end-line="409" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#848#857#0" expanded="true" />
+            <element signature="e#5546#5576#0" expanded="true" />
+            <element signature="e#7354#7384#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="106" column="21" lean-forward="false" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.List">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.List</OriginalElement>
+          <nodes>
+            <node x="24.5" y="170.0">java.util.List</node>
+            <node x="0.0" y="85.0">java.util.Collection</node>
+            <node x="9.0" y="0.0">java.lang.Iterable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.List" target="java.util.Collection">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="0.0" y="-17.5" />
+              <point x="0.0" y="17.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-624.5" y="-47.0" />
+          <SelectedNodes>
+            <node>java.util.List</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-637">
+          <caret line="206" column="13" lean-forward="false" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ect/RunWithThreads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="184">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#673#682#0" expanded="true" />
-            <element signature="e#823#1140#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1161#1415#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#824#1142#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/TestVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6831">
+          <caret line="404" column="29" lean-forward="true" selection-start-line="404" selection-start-column="29" selection-end-line="404" selection-end-column="29" />
+          <folding>
+            <element signature="e#5447#5448#0" expanded="true" />
+            <element signature="e#5487#5488#0" expanded="true" />
+            <element signature="method#grow#0;class#Vector#0" expanded="false" />
+            <element signature="method#hugeCapacity#0;class#Vector#0" expanded="false" />
           </folding>
         </state>
       </provider>
