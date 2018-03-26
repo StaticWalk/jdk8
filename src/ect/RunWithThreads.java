@@ -46,11 +46,6 @@ public class RunWithThreads {
 		};
 		Thread thread2 = new Thread(){
 
-//			public void synchronized ss(){
-//				Iterator<Integer> iterator = list.iterator();
-//				iterator.remove();
-//			}
-
 			public  void run() {
 				Iterator<Integer> iterator = list.iterator();
 				while(iterator.hasNext()){

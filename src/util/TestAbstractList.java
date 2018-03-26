@@ -9,7 +9,6 @@ import java.util.AbstractList;
  * add(),remove(),set()的调用，抛出UnsupportedOperationException()
  * 实现了一个私有类Itr
  *
- *
  */
 public class TestAbstractList {
 	public static void main(String[] args) {
