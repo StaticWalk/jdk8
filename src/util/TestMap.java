@@ -18,8 +18,8 @@ import java.util.Map;
  *		没有实现put(K key, V value)方法，只抛出了个异常，继承类应overwrite这个方法。不支持add(),remove()
  *		V remove(Obj key),使用correctEntry保存查出来的要删除的Entry,oldValue获得删除key的value来返回
  * SortedMap接口继承Map，有序的键值对。排序方式：自然排序，指定比较器排序(Comparator)@TestComparator.java
- *
- *
+ *		方法内部通过传递参数key操作。
+ * NavigableMap继承
  *
  *
  *

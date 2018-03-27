@@ -17,7 +17,7 @@ import java.util.function.Predicate;
  * java8增加了包java.util.function来支持java的函数式编程。Predicate能向API添加逻辑。
  * lambda表达式和匿名内部类分析：
  * 		this关键字的指向：匿名类中的指向匿名类；lambda表达式中指向为包围该表达式的类。
- * 		java编译器将lambda表达式通过invokeDynamic字节码绑定编译成类的私有方法.
+ * 		java编译器将lambda表达式编译成类的私有方法,通过invokeDynamic字节码绑定.
  *
  */
 public class TestLambda {
