@@ -44,14 +44,13 @@ public class TestComparable {
 			this.color = color;
 			this.weight = weight;
 		}
-		@Override
 		public String toString() {
 			return "Apple [color=" + color + ", weight=" + weight + "]";
 		}
 	}
 
 	public static <T> List<List<T>> divider(Collection<T> datas, Comparator<? super T> c) {
-		List<List<T>> result = new ArrayList<List<T>>();
+		List<List<T>> result = new ArrayList<>();
 		for (T t : datas) {
 			boolean isSameGroup = false;
 			for (int j = 0; j < result.size(); j++) {
@@ -83,7 +82,4 @@ public class TestComparable {
 		List<List<Apple>> byWeight = divider(list, (o1, o2) -> (o1.weight / 100 == o2.weight / 100) ? 0 : 1);
 		System.out.println("按重量级分组" + byWeight);
 	}
-
-
-
 }
