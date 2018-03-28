@@ -19,7 +19,12 @@ import java.util.Map;
  *		V remove(Obj key),使用correctEntry保存查出来的要删除的Entry,oldValue获得删除key的value来返回
  * SortedMap接口继承Map，有序的键值对。排序方式：自然排序，指定比较器排序(Comparator)@TestComparator.java
  *		方法内部通过传递参数key操作。
- * NavigableMap继承
+ * NavigableMap继承SortedMap:
+ * 1. 提供了操作键值对的方法：lowerEntry、floorEntry、cellingEntry和higherEntry方法分别返回小于、小于等
+ * 		于、大于等于和大于给定键的键所关联的Map.Entry对象。
+ * 2. 提供了操作键的方法：lowerKey、floorKey、cellingKey和higherKey方法分别返回小于、小于等于、大于等于
+ * 		和大于给定键的键。
+ * 3. 获取键值对的子集。
  *
  *
  *
