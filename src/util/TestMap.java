@@ -26,7 +26,7 @@ import java.util.Map;
  * 		和大于给定键的键。
  * 3. 获取键值对的子集。
  *
- *
+ * HashMap：散列表，存储键值对，实现不同步非线程安全
  *
  **/
 public class TestMap {
