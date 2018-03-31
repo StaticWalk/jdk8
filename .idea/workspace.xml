@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef1e576-e596-4d7f-bc60-37a41113d6b2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ect/Hash.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ect/BinaryTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ect/Tree.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/util/TestMap.java" afterPath="$PROJECT_DIR$/src/util/TestMap.java" />
     </list>
@@ -18,42 +19,38 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5080472">
+    <splitter split-orientation="horizontal" split-proportion="0.4527897">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="TestMap.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
+          <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="true">
+            <entry file="jar://D:/java1/src.zip!/java/util/HashMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="366">
-                  <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+                <state relative-caret-position="-186">
+                  <caret line="1798" column="23" lean-forward="false" selection-start-line="1798" selection-start-column="23" selection-end-line="1798" selection-end-column="23" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#19296#19297#0" expanded="true" />
+                    <element signature="e#19379#19380#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-            <entry file="jar://D:/java1/src.zip!/java/util/Map.java">
+          <file leaf-file-name="LinkedHashMap.java" pinned="false" current-in-tab="false">
+            <entry file="jar://D:/java1/src.zip!/java/util/LinkedHashMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="467" column="21" lean-forward="true" selection-start-line="467" selection-start-column="21" selection-end-line="467" selection-end-column="21" />
+                <state relative-caret-position="283">
+                  <caret line="162" column="13" lean-forward="false" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/jdk-source/java/util/HashMap.java">
+          <file leaf-file-name="TestMap.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="630" column="14" lean-forward="true" selection-start-line="630" selection-start-column="14" selection-end-line="630" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#12815#12816#0" expanded="true" />
-                    <element signature="e#12893#12894#0" expanded="true" />
-                    <element signature="e#24298#24299#0" expanded="true" />
-                    <element signature="e#24363#24364#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="40">
+                  <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -61,7 +58,7 @@
           <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
             <entry file="jar://D:/java1/src.zip!/java/lang/Object.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="316">
+                <state relative-caret-position="274">
                   <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
                   <folding />
                 </state>
@@ -71,7 +68,7 @@
           <file leaf-file-name="TestComparable.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ect/TestComparable.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1495">
+                <state relative-caret-position="776">
                   <caret line="71" column="44" lean-forward="false" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -84,25 +81,28 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="TestMap.java" pinned="false" current-in-tab="true">
+        <leaf>
+          <file leaf-file-name="TestMap.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="693">
+                  <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Hash.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ect/Hash.java">
+          <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/ect/BinaryTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-                  <folding />
+                <state relative-caret-position="184">
+                  <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#336#337#0" expanded="true" />
+                    <element signature="e#354#355#0" expanded="true" />
+                    <element signature="e#5966#5967#0" expanded="true" />
+                    <element signature="e#6021#6022#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -142,6 +142,8 @@
       <find>bucket</find>
       <find>put</find>
       <find>hash(O</find>
+      <find>red-</find>
+      <find>put(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,7 +175,10 @@
         <option value="$PROJECT_DIR$/src/ect/TestComparable.java" />
         <option value="$PROJECT_DIR$/src/ect/TestLambda.java" />
         <option value="$PROJECT_DIR$/src/ect/Hash.java" />
+        <option value="$PROJECT_DIR$/jdk-source/java/util/HashMap.java" />
         <option value="$PROJECT_DIR$/src/util/TestMap.java" />
+        <option value="$PROJECT_DIR$/src/ect/Tree.java" />
+        <option value="$PROJECT_DIR$/src/ect/BinaryTree.java" />
       </list>
     </option>
   </component>
@@ -225,28 +230,19 @@
             <path>
               <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdk8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdk8" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk-source" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="HashMap" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -565,7 +561,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34510252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13841201" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1416309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13519314" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -589,7 +585,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add collection test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add collection test" />
+    <MESSAGE value="add map" />
+    <option name="LAST_COMMIT_MESSAGE" value="add map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,53 +609,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/java.util.Vector">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.Vector</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.RandomAccess</node>
-            <node x="" y="">java.util.AbstractCollection</node>
-            <node x="" y="">java.util.List</node>
-            <node x="" y="">java.lang.Cloneable</node>
-            <node x="" y="">java.util.Vector</node>
-            <node x="" y="">java.util.Collection</node>
-            <node x="" y="">java.util.AbstractList</node>
-            <node x="" y="">java.lang.Iterable</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="360.0" y="188.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="98" column="22" lean-forward="true" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java1/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="407" column="0" lean-forward="false" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jdk-source/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -1028,24 +978,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ect/TestComparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="71" column="44" lean-forward="false" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Apple#0;class#Apple#0;class#TestComparable#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java1/src.zip!/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1610">
           <caret line="97" column="33" lean-forward="false" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
           <folding>
-            <element signature="e#2786#2787#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
+            <element signature="e#2786#2787#0" expanded="false" />
+            <element signature="e#2837#2838#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1068,7 +1007,7 @@
     </entry>
     <entry file="jar://D:/java1/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="274">
           <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
           <folding />
         </state>
@@ -1076,23 +1015,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jdk-source/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="630" column="14" lean-forward="true" selection-start-line="630" selection-start-column="14" selection-end-line="630" selection-end-column="14" />
+        <state relative-caret-position="103">
+          <caret line="1804" column="8" lean-forward="false" selection-start-line="1804" selection-start-column="8" selection-end-line="1804" selection-end-column="8" />
           <folding>
-            <element signature="e#12815#12816#0" expanded="true" />
-            <element signature="e#12893#12894#0" expanded="true" />
-            <element signature="e#24298#24299#0" expanded="true" />
-            <element signature="e#24363#24364#0" expanded="true" />
+            <element signature="e#12815#12816#0" expanded="false" />
+            <element signature="e#12893#12894#0" expanded="false" />
+            <element signature="e#24298#24299#0" expanded="false" />
+            <element signature="e#24363#24364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ect/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ect/TestComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="71" column="44" lean-forward="false" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Apple#0;class#Apple#0;class#TestComparable#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="162" column="13" lean-forward="false" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="1798" column="23" lean-forward="false" selection-start-line="1798" selection-start-column="23" selection-end-line="1798" selection-end-column="23" />
+          <folding>
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        <state relative-caret-position="693">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ect/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#5966#5967#0" expanded="true" />
+            <element signature="e#6021#6022#0" expanded="true" />
           </folding>
         </state>
       </provider>

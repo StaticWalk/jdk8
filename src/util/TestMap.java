@@ -27,9 +27,12 @@ import java.util.Map;
  * 3. 获取键值对的子集。
  *
  * HashMap：散列表，存储键值对，实现不同步非线程安全
- * 整体结构，节点数组Node<K,V>[] table + 链表 Node<K,V> p + 红黑树
+ * 整体结构，节点数组Node<K,V>[] table + 链表 Node<K,V> p + 红黑树,数组下标通过i = (n - 1) & hash获得。
  * put()方法:转入putVal(int hash,K key,V value,boolean onlyIfAbsent,boolean evict),key.hashCode()返回int
- * 		2进制32位带符号-2147483648到2147483648，但是HashMap扩容前的数组初始大小16位
+ * 		2进制32位带符号-2147483648到2147483648，但是HashMap扩容前的数组初始大小16位,hash()"扰动函数"通过
+ * 		(n-1)&hash来确定table数组下标。
+ *
+ *
  *
  **/
 public class TestMap {
