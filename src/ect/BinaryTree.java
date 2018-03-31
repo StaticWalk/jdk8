@@ -7,6 +7,8 @@ package ect;
  *
  * show me the code
  *
+ * 无子节点，节点指null，垃圾回收器自动回收该节点
+ * 一个子节点，父节点和唯一子节点相连
  * 删除节点有两个子节点的时候，找到后继节点删除原节点：
  * 		1.后继父节点left -> 后继节点右节点
  * 		2.后继节点right -> 删除节点的右节点
@@ -22,6 +24,17 @@ public class BinaryTree {
 
 	public BinaryTree() {
 		root = null;
+	}
+
+	public static void main(String[] args) {
+		BinaryTree a=new BinaryTree();
+		a.insert(50,50);
+		a.insert(60,60);
+		a.insert(40,40);
+		a.insert(10,10);
+		a.insert(80,80);
+		a.postOrder(a.root);
+		System.out.println(a.minNumber().data);
 	}
 
 	//二叉搜索树查找的时间复杂度为O(logN)
@@ -123,6 +136,7 @@ public class BinaryTree {
 
 	//查找最小值
 	/*根据二叉搜索树的存储规则，最小值应该是左边那个没有子节点的那个节点*/
+	//parent用来保留上一部查出来的BNode
 	public BNode minNumber() {
 		BNode current = root;
 		BNode parent = root;

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef1e576-e596-4d7f-bc60-37a41113d6b2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ect/BinaryTree.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ect/Tree.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/util/TestMap.java" afterPath="$PROJECT_DIR$/src/util/TestMap.java" />
+      <change beforePath="$PROJECT_DIR$/src/ect/BinaryTree.java" afterPath="$PROJECT_DIR$/src/ect/BinaryTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +84,7 @@
             <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="693">
-                  <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                  <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -95,13 +93,21 @@
           <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ect/BinaryTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+                <state relative-caret-position="251">
+                  <caret line="167" column="25" lean-forward="false" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
                   <folding>
-                    <element signature="e#336#337#0" expanded="true" />
-                    <element signature="e#354#355#0" expanded="true" />
-                    <element signature="e#5966#5967#0" expanded="true" />
-                    <element signature="e#6021#6022#0" expanded="true" />
+                    <element signature="e#386#387#0" expanded="true" />
+                    <element signature="e#404#405#0" expanded="true" />
+                    <element signature="method#find#0;class#BinaryTree#0" expanded="false" />
+                    <element signature="method#insert#0;class#BinaryTree#0" expanded="false" />
+                    <element signature="method#traverse#0;class#BinaryTree#0" expanded="false" />
+                    <element signature="method#preOrder#0;class#BinaryTree#0" expanded="false" />
+                    <element signature="method#inOrder#0;class#BinaryTree#0" expanded="false" />
+                    <element signature="method#postOrder#0;class#BinaryTree#0" expanded="false" />
+                    <element signature="method#minNumber#0;class#BinaryTree#0" expanded="false" />
+                    <element signature="method#maxNumber#0;class#BinaryTree#0" expanded="false" />
+                    <element signature="e#6281#6282#0" expanded="true" />
+                    <element signature="e#6336#6337#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -279,13 +285,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLambda">
+  <component name="RunManager" selected="Application.BinaryTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ect.BinaryTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jdk8" />
+      <envs />
     </configuration>
     <configuration name="TestComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ect.TestComparable" />
@@ -328,19 +347,6 @@
     </configuration>
     <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="util.TestMap" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jdk8" />
-      <envs />
-    </configuration>
-    <configuration name="TestVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.TestVector" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -530,19 +536,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestVector" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestLinkedList" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestMap" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestComparable" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestLambda" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestLinkedList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestMap" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestComparable" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestLambda" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BinaryTree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestLambda" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestComparable" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestMap" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestLinkedList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestVector" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestLambda" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestComparable" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestMap" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -554,12 +560,13 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34510252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14920273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1416309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -568,7 +575,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5501139" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -586,7 +592,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add collection test" />
     <MESSAGE value="add map" />
-    <option name="LAST_COMMIT_MESSAGE" value="add map" />
+    <MESSAGE value="add binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="add binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1067,20 +1074,28 @@
     <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ect/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="251">
+          <caret line="167" column="25" lean-forward="false" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
           <folding>
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#5966#5967#0" expanded="true" />
-            <element signature="e#6021#6022#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="method#find#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#insert#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#traverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#preOrder#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#inOrder#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#postOrder#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#minNumber#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#maxNumber#0;class#BinaryTree#0" expanded="false" />
+            <element signature="e#6281#6282#0" expanded="true" />
+            <element signature="e#6336#6337#0" expanded="true" />
           </folding>
         </state>
       </provider>
