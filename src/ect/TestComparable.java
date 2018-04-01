@@ -38,7 +38,6 @@ public class TestComparable {
 	class Apple {
 		public String color;
 		public int weight;
-
 		public Apple(String color, int weight) {
 			super();
 			this.color = color;
