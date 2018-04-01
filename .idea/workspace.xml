@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ef1e576-e596-4d7f-bc60-37a41113d6b2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/ect/RedBlackTree.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/ect/BinaryTree.java" afterPath="$PROJECT_DIR$/src/ect/BinaryTree.java" />
     </list>
@@ -17,7 +18,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4527897">
+    <splitter split-orientation="horizontal" split-proportion="0.43133047">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="true">
@@ -43,39 +44,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TestMap.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="40">
-                  <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-            <entry file="jar://D:/java1/src.zip!/java/lang/Object.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TestComparable.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/ect/TestComparable.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="776">
-                  <caret line="71" column="44" lean-forward="false" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="method#Apple#0;class#Apple#0;class#TestComparable#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -83,31 +51,40 @@
           <file leaf-file-name="TestMap.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="693">
-                  <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                <state relative-caret-position="782">
+                  <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/ect/BinaryTree.java">
+          <file leaf-file-name="RedBlackTree.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/ect/RedBlackTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="251">
-                  <caret line="167" column="25" lean-forward="false" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
+                <state relative-caret-position="224">
+                  <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
                   <folding>
-                    <element signature="e#386#387#0" expanded="true" />
-                    <element signature="e#404#405#0" expanded="true" />
-                    <element signature="method#find#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="method#insert#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="method#traverse#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="method#preOrder#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="method#inOrder#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="method#postOrder#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="method#minNumber#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="method#maxNumber#0;class#BinaryTree#0" expanded="false" />
-                    <element signature="e#6281#6282#0" expanded="true" />
-                    <element signature="e#6336#6337#0" expanded="true" />
+                    <element signature="e#721#730#0" expanded="true" />
+                    <element signature="e#2319#2320#0" expanded="true" />
+                    <element signature="e#2338#2339#0" expanded="true" />
+                    <element signature="e#2368#2369#0" expanded="true" />
+                    <element signature="e#2425#2426#0" expanded="true" />
+                    <element signature="e#2448#2449#0" expanded="true" />
+                    <element signature="e#2466#2467#0" expanded="true" />
+                    <element signature="e#2512#2513#0" expanded="true" />
+                    <element signature="e#2566#2567#0" expanded="true" />
+                    <element signature="e#2724#2725#0" expanded="true" />
+                    <element signature="e#2780#2781#0" expanded="true" />
+                    <element signature="e#2821#2822#0" expanded="true" />
+                    <element signature="e#2894#2895#0" expanded="true" />
+                    <element signature="e#2937#2938#0" expanded="true" />
+                    <element signature="e#2963#2964#0" expanded="true" />
+                    <element signature="e#3326#3327#0" expanded="true" />
+                    <element signature="e#3347#3348#0" expanded="true" />
+                    <element signature="e#3580#3581#0" expanded="true" />
+                    <element signature="e#3600#3601#0" expanded="true" />
+                    <element signature="e#3834#3835#0" expanded="true" />
+                    <element signature="e#3856#3857#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -185,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/util/TestMap.java" />
         <option value="$PROJECT_DIR$/src/ect/Tree.java" />
         <option value="$PROJECT_DIR$/src/ect/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/ect/RedBlackTree.java" />
       </list>
     </option>
   </component>
@@ -285,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.RedBlackTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -295,6 +273,19 @@
     </configuration>
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ect.BinaryTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jdk8" />
+      <envs />
+    </configuration>
+    <configuration name="RedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ect.RedBlackTree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -321,19 +312,6 @@
     </configuration>
     <configuration name="TestLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ect.TestLambda" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jdk8" />
-      <envs />
-    </configuration>
-    <configuration name="TestLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.TestLinkedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -536,19 +514,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestLinkedList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestMap" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestComparable" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestLambda" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BinaryTree" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestMap" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestComparable" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestLambda" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BinaryTree" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RedBlackTree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestLambda" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestComparable" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestMap" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestLinkedList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RedBlackTree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BinaryTree" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestLambda" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestComparable" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestMap" />
       </list>
     </recent_temporary>
   </component>
@@ -566,14 +544,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14920273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48405465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1416309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13519314" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5501139" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45899773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -611,23 +589,11 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jdk-source/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="438" column="0" lean-forward="false" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
-          <folding>
-            <element signature="e#11209#11210#0" expanded="false" />
-            <element signature="e#11247#11248#0" expanded="false" />
-            <element signature="e#12507#12537#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java1/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -1041,6 +1007,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ect/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="method#find#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#insert#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#traverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#preOrder#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#inOrder#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#postOrder#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#minNumber#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#maxNumber#0;class#BinaryTree#0" expanded="false" />
+            <element signature="e#6256#6257#0" expanded="true" />
+            <element signature="e#6311#6312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ect/TestComparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="776">
@@ -1071,31 +1066,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/TestMap.java">
+    <entry file="file://$PROJECT_DIR$/src/ect/RedBlackTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ect/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="167" column="25" lean-forward="false" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
+        <state relative-caret-position="224">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="method#find#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#insert#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#traverse#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#preOrder#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#inOrder#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#postOrder#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#minNumber#0;class#BinaryTree#0" expanded="false" />
-            <element signature="method#maxNumber#0;class#BinaryTree#0" expanded="false" />
-            <element signature="e#6281#6282#0" expanded="true" />
-            <element signature="e#6336#6337#0" expanded="true" />
+            <element signature="e#721#730#0" expanded="true" />
+            <element signature="e#2319#2320#0" expanded="true" />
+            <element signature="e#2338#2339#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2512#2513#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
+            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+            <element signature="e#2894#2895#0" expanded="true" />
+            <element signature="e#2937#2938#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#3326#3327#0" expanded="true" />
+            <element signature="e#3347#3348#0" expanded="true" />
+            <element signature="e#3580#3581#0" expanded="true" />
+            <element signature="e#3600#3601#0" expanded="true" />
+            <element signature="e#3834#3835#0" expanded="true" />
+            <element signature="e#3856#3857#0" expanded="true" />
           </folding>
         </state>
       </provider>

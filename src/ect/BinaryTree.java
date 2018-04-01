@@ -32,9 +32,9 @@ public class BinaryTree {
 		a.insert(60,60);
 		a.insert(40,40);
 		a.insert(10,10);
-		a.insert(80,80);
-		a.postOrder(a.root);
-		System.out.println(a.minNumber().data);
+		a.insert(45,45);
+//		a.postOrder(a.root);
+		a.delete(40);
 	}
 
 	//二叉搜索树查找的时间复杂度为O(logN)
@@ -181,7 +181,7 @@ public class BinaryTree {
 			if(key < current.key) {
 				isLeftChild = true;
 				current = current.leftChild;
-			}
+		}
 			else {
 				isLeftChild = false;
 				current = current.rightChild;
