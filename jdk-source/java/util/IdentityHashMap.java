@@ -433,7 +433,6 @@ public class IdentityHashMap<K,V>
                     return oldValue;
                 }
             }
-
             final int s = size + 1;
             // Use optimized form of 3 * s.
             // Next capacity is len, 2 * current capacity.

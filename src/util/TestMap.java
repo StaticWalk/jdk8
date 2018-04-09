@@ -31,12 +31,27 @@ import java.util.Map;
  * 整体结构，节点数组Node<K,V>[] table + 链表 Node<K,V> p + 红黑树(基于二叉树),数组下标通过i = (n - 1) & hash获得。
  * put()方法:转入putVal(int hash,K key,V value,boolean onlyIfAbsent,boolean evict),key.hashCode()返回int
  * 		2进制32位带符号-2147483648到2147483648，但是HashMap扩容前的数组初始大小16位,hash()"扰动函数"通过
- * 		(n-1)&hash来确定table数组下标。
+ * 		(n-1)&hash来确定table数组下标。@Hash.java  @BinaryTree.java  @RedBlackTree.java
  *
+ * IdentityHashMap：只有全等的key才会相等，当出现key-value冲突的时候，不是利用链表解决冲突而是继续计算下一个索引，
+ * 		存在下一个有效索引的数组里面。 table[i]=key,table[i+1]=value  ????
+ * 		该类实例化的时候，容量申请了Object [64],自带了hash(h,len):((h << 1) - (h << 8))&(len-1)
+ *		capacity扩容操作中两处判断， Integer.highestOneBit(3*expMS),取二进制最高位其余位全部补0.方法是按位取或，
+ *		最高位1右移移位然后与原数据取或，得到i是全1，return i - (i >>> 1)。<<<左移负数补1，<<左移负数补0，正数操作统一补0
+ *		里面包含指定大小的Object[]数组，clear()就是把数组元素置null。put()中数组序号通过i=indexFor(h,tab.length)
+ *		获得	，单一数组偶数项装key，下一位装value。resize()容量翻倍，原数组置null不够直接MAX原数组内容装入新数组中。
+ *		操作中引入modCount来记录线程安全情况，出错抛出异常。
+ *		equals() 1.o属于IdentityHashMap,containsMapping逐一比较 2.o属于Map,entrySet().equals(m.entrySet())返回
+ *		true就可以  3. o == this
+ *		重写equals方法，判定只有key值全等情况下才会判断key值相等。
  *
+ * WeakHashMap:弱引用队列关联map数组中存储的数据，类似hashmap使用链表解决冲突问题。优势该类可以实现缓存，内存紧张时
+ * 		可避免占用大量内存，销毁不用过时对象，较早释放空间。特点使用引用队列，把Entry对象和引用队列关联,Entry变弱引用
  *
  **/
 public class TestMap {
+
+
 
 	public static void main(String[] args) {
 		Map map = new HashMap();
