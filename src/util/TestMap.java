@@ -47,6 +47,10 @@ import java.util.Map;
  *
  * WeakHashMap:弱引用队列关联map数组中存储的数据，类似hashmap使用链表解决冲突问题。优势该类可以实现缓存，内存紧张时
  * 		可避免占用大量内存，销毁不用过时对象，较早释放空间。特点使用引用队列，把Entry对象和引用队列关联,Entry变弱引用
+ *		自定义Entry中hashCode(),键值对hash值相异或。核心方法expungeStaleEntries(),在getSize() getTable()中被调用
+ *  expungeStaleEntries()：遍历引用队列中保存的已回收弱引用对象；map数组清除原有引用，只保留还未回收的弱引用对象；
+ *  	queue.poll()弹出弱引用对象，该类的Entry集成了WeakReference类；两层循环，1循环遍历引用队列的值，2遍历map数组
+ *  	中的值，当map中发现有引用队列相同的引用应马上从数组中删除，更新map数组长度
  *
  **/
 public class TestMap {
