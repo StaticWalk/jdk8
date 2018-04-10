@@ -1,6 +1,6 @@
-package ect;
-import java.util.WeakHashMap;
+package ect.Reference;
 
+import java.util.WeakHashMap;
 
 /**
  * Created by xiongxiaoyu
@@ -16,6 +16,24 @@ import java.util.WeakHashMap;
  *		对象可达性事件处理的场景会使用。(Reference指引用对象本身，Referent指引用对象)
  *   对象可达性判断
  */
+
+
+class CanonicalMapping {
+	public static void main(String[] args) {
+		int size = 1000;
+		Key[] keys = new Key[size];
+		WeakHashMap map = new WeakHashMap();
+		for (int i = 0; i < 15; i++) {
+			Key k = new Key(Integer.toString(i));
+			Value v = new Value(Integer.toString(i));
+//			System.out.println(Integer.toString(i));
+			if (i % 3 == 0)
+				keys[i] = k ;
+			map.put(k, v);
+		}
+		System.gc();
+	}
+}
 
 
 class Element {
@@ -37,6 +55,7 @@ public boolean equals(Object obj) {
 		return obj instanceof Element && ident.equals(((Element) obj).ident);
 		}
 
+		//执行gc将对象从内存清除前的必要的清理工作
 protected void finalize(){
 		System.out.println("Finalizing "+getClass().getSimpleName()+" "+ident);
 		}}
@@ -50,22 +69,5 @@ class Key extends Element{
 class Value extends Element{
 	public Value (String id){
 		super(id);
-	}
-}
-
-public class TestReference {
-	public static void main(String[] args) {
-		int size = 1000;
-		Key[] keys = new Key[size];
-		WeakHashMap map = new WeakHashMap();
-		for (int i = 0; i < keys.length; i++)
-		{
-			Key k = new Key(Integer.toString(i));
-			Value v = new Value(Integer.toString(i));
-			if (i % 3 == 0)
-				keys[i] = k;
-			map.put(k, v);
-		}
-		System.gc();
 	}
 }
