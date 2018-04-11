@@ -52,10 +52,9 @@ import java.util.Map;
  *  	queue.poll()弹出弱引用对象，该类的Entry集成了WeakReference类；两层循环，1循环遍历引用队列的值，2遍历map数组
  *  	中的值，当map中发现有引用队列相同的引用应马上从数组中删除，更新map数组长度
  *
+ *
  **/
 public class TestMap {
-
-
 
 	public static void main(String[] args) {
 		Map map = new HashMap();
