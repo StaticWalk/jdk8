@@ -51,11 +51,28 @@ package ect;
  *   -对象终结规则：一个对象的初始化完成先行发生于他的finalize()方法的开始
  *
  *  volatile关键字：
- *  	(两层语义) 修饰共享变量(类的成员变量、类的静态成员变量)
+ *  1）	(两层语义) 修饰共享变量(类的成员变量、类的静态成员变量)
  *  	1.保证了不同线程对这个变量进行操作时的可见性，即一个线程修改了某个变量的值，这新值对其他线程来说是立即可见的。
  *		2.禁止进行指令重排序
  *	修饰后的作用：1.使用volatile关键字会强制将修改的值立即写入主存；2.线程2修改变量时，会导致线程1工作内存中缓冲变量行无效；
  *		3.线程1的工作内存中缓存变量的缓存行无效，使用时需要再次去主存读取。
+ *  2）原子性问题
+ *  	volatile不能解决原子性问题，concurrent.atomic下封装了一些基本数据类型，可以保证是原子操作
+ *  3）volatile禁止指令重排序：
+ *		1.执行到volatile的读写操作时，该操作之前的更改已进行完毕，且对后面操作可见；其后操作未进行。
+ *		2.指令优化时，不能改变含对volatile变量访问语句的执行顺序
+ *  4）volatile的原理和实现机制：
+ * (“观察加入volatile关键字和没有加入volatile关键字时所生成的汇编代码发现，加入volatile关键字时，会多出一个lock前缀指令”)
+ *		lock前缀指令实际相当于一个内存屏障(又称内存栅栏)，内存屏障提哦那个三个功能：
+ *		1.确保指令重排序时不会把他后面指令排到内存屏障之前的位置，也不会把前面的指令排到内存屏障的后面；即在执
+ *		行到内存屏障这句指令时，在它前面的操作已经全部完成；
+ *		2.它会强制将对缓存的修改操作立即写入主存；
+ *		3.如果是写操作，它会导致其他CPU中对应的缓存行无效。
+ *	5）关键字的运用场景
+ *		synchronized防止多个线程执行同一段代码，会影响程序执行效率；volatile某些情况性能优于synchronized，
+ *		volatile关键字是无法替代synchronized关键字的，因为volatile关键字无法保证操作的原子性。
+ *	使用volatile条件(能保证原子性操作)：1.对变量的写操作不依赖于当前值  2.该变量没有包含在具有其他变量的不变式中
+ *		1.状态标记量  2.double-check(双重检查的实现需要实现同步，通过volatile来实现)
  *
  *
  *
@@ -66,10 +83,38 @@ package ect;
  */
 public class TestVolatile {
 
-	public volatile int inc = 0;
+	public int inc = 0;
+
+//	public volatile int  inc = 0;
 	public void increase() {
 		inc++;
 	}
+
+	/*使用synchronized修饰方法*/
+//	public synchronized void increase() {
+//		inc++;
+//	}
+
+	/*采用Lock*/
+//	Lock lock = new ReentrantLock();
+//	public  void increase() {
+//		lock.lock();
+//		try {
+//			inc++;
+//		} finally{
+//			lock.unlock();
+//		}
+//	}
+
+	/*采用AtomicInteger
+	* atomic是利用CAS来实现原子性操作的（Compare And Swap），CAS实际上是利用处理器
+	* 提供的CMPXCHG指令实现的，而处理器执行CMPXCHG指令是一个原子性操作。
+	* */
+//	public  AtomicInteger inc = new AtomicInteger();
+//	public  void increase() {
+//		inc.getAndIncrement();
+//	}
+
 
 	public static void main(String[] args) {
 		final TestVolatile test = new TestVolatile();
@@ -81,8 +126,9 @@ public class TestVolatile {
 			).start();
 		}
 
-		while(Thread.activeCount()>1)  //保证前面的线程都执行完
+	//代码执行会被卡死  jstack查看线程状态
+		while(Thread.activeCount()>0)  //保证前面的线程都执行完
 			Thread.yield();
-		System.out.println("hhh"+test.inc);
+		System.out.println(test.inc+"  thread count:"+Thread.activeCount());
 	}
 }
