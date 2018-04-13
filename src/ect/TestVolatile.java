@@ -72,7 +72,7 @@ package ect;
  *		synchronized防止多个线程执行同一段代码，会影响程序执行效率；volatile某些情况性能优于synchronized，
  *		volatile关键字是无法替代synchronized关键字的，因为volatile关键字无法保证操作的原子性。
  *	使用volatile条件(能保证原子性操作)：1.对变量的写操作不依赖于当前值  2.该变量没有包含在具有其他变量的不变式中
- *		1.状态标记量  2.double-check(双重检查的实现需要实现同步，通过volatile来实现)
+ *		1.状态标记量  2.double-check(双重检查的实现需要实现同步，通过volatile来实现) 延迟初始化，减少开销
  *
  *
  *
