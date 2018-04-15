@@ -15,7 +15,7 @@ package ect;
  *
  *
  * HashTable和HashMap大同小异，区别：
- * 	1.Null Key,Null Value:HashMap V均能null，拿第0号桶来装key=null(HashMap中null的hashCode=0)。
+ * 	1.Null Key,Null Value:HashMap K V均能null，拿第0号桶来装key=null(HashMap中null的hashCode=0)。
  * 			HashTable中K V不能为null，抛出NullPointerException异常。
  * 	2.容量大小：HashMap初始16，扩容就翻倍；HashTable初始11，0.75，扩容2n+1.
  * 		(当哈希表的大小为素数时，简单的取模哈希的结果会更均匀；HashMap通过(h = key.hashCode()) ^ (h >>> 16)
