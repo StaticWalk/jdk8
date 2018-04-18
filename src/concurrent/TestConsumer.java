@@ -17,7 +17,7 @@ public class TestConsumer {
 }
 
 //典型的生产者/消费者协助队列
-   class MyBlockingQueue<E>{
+class MyBlockingQueue<E>{
 	private Queue<E> queue=null;
 	private int limit;
 	public MyBlockingQueue(int limit){
@@ -43,7 +43,7 @@ public class TestConsumer {
 	}
 }
 
- class Producer extends Thread{
+class Producer extends Thread{
 	MyBlockingQueue<String> queue;
 	public Producer(MyBlockingQueue queue){
 		this.queue=queue;
@@ -66,7 +66,7 @@ public class TestConsumer {
 	 }
  }
 
- class Consumer extends Thread{
+class Consumer extends Thread{
 	MyBlockingQueue<String> queue;
 	public Consumer(MyBlockingQueue queue){
 		this.queue=queue;
