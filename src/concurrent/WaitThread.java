@@ -8,6 +8,9 @@ import java.util.concurrent.locks.ReentrantLock;
  * Created by xiongxiaoyu
  * Data:2018/4/18
  * Time:22:30
+ *
+ * 显示锁和显示条件的配合
+ * notify()/notifyAll()是Object中的方法，Condition对象也有，不能混淆使用
  */
 public class WaitThread extends Thread{
 	private volatile boolean fire=false;
