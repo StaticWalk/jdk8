@@ -8,24 +8,26 @@ import java.util.Random;
  * Created by xiongxiaoyu
  * Data:2018/4/19
  * Time:22:36
+ *
+ *
+ *  java hashmap的死循环
+ *  https://coolshell.cn/articles/9606.html
+ *
  */
 public class TestUnsafeHashMap {
 
-
-	public  void unsafeConcurrentUpdate(){
+	public  static void unsafeConcurrentUpdate(){
 		final Map<Integer,Integer> map=new HashMap<>();
-		Random rnd=new Random();
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i <1000; i++) {
 //			new Thread(()->{
 ////				for (int j = 0; j < 100; j++) {
 ////					map.put(rnd.nextInt(),1);
 ////				}}).start();
-
 			Thread t=new Thread(){
 				Random rnd=new Random();
 				@Override
 				public void run() {
-					for (int j = 0; j < 100; j++) {
+					for (int i = 0; i < 1000; i++) {
 						map.put(rnd.nextInt(),1);
 					}
 				}
@@ -35,8 +37,7 @@ public class TestUnsafeHashMap {
 	}
 
 	public static void main(String[] args) {
-		TestUnsafeHashMap a=new TestUnsafeHashMap();
-		a.unsafeConcurrentUpdate();
+		unsafeConcurrentUpdate();
 	}
 
 }

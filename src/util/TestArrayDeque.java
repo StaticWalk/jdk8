@@ -19,6 +19,5 @@ package util;
 
 public class TestArrayDeque {
 
-//	ArrayQueue<Integer>  a=new ArrayQueue<Integer>();
 
 }
