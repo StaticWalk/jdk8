@@ -62,7 +62,5 @@ public class TestEnum {
 			System.out.print(entry.getKey() + ": " + entry.getValue() + ", ");
 		}
 
-
-
 	}
 }
