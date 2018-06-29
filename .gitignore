@@ -1,3 +1,6 @@
 .idea/
 
-.jdk-source/
+*.jdk-source/
+
+
+*.class
