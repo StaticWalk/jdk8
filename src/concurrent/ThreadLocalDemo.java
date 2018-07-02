@@ -19,6 +19,11 @@ import java.util.concurrent.CountDownLatch;
  * 		当 ThreadLocal 变量被回收后，该映射的键变为 null，该 Entry 无法被移除。从而使得实例被该 Entry 引用而无法被回收造成内存泄漏。
  * 	注：Entry虽然是弱引用，但它是 ThreadLocal 类型的弱引用（也即上文所述它是对 键 的弱引用），而非具体实例的的弱引用，所以无法避免具体实例相关的内存泄漏。
  *
+ *	关于ThreadLocal的内存泄漏解决方案：
+ *		1.ThreadLocalMap 中的set  replaceStaleEntry将值是null的Entry的值设置为null，接下来可被回收
+ *		2.rehash 方法中通过 expungeStaleEntry 方法将键和值为 null 的 Entry 设置为 null 从而使得该 Entry 可被回收
+ *
+ *
  */
 public class ThreadLocalDemo {
 	public static void main(String[] args) throws InterruptedException {
