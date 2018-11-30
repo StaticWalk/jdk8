@@ -1,5 +1,8 @@
 package util;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by xiongxiaoyu
  * Data:2018/3/26
@@ -54,10 +57,10 @@ package util;
 public class TestMap {
 
 	public static void main(String[] args) {
-//		Map map = new HashMap();
+		Map map = new HashMap();
 //		map.put(null, null);
-//		map.put(null, 3);
-//		map.put("3", null);
+		map.put(null, 3);
+		map.put("3", null);
 //		System.out.println(map.remove("3"));
 		System.out.println(Integer.lowestOneBit(15));
 	}
