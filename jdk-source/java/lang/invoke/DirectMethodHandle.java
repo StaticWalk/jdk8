@@ -25,19 +25,21 @@
 
 package java.lang.invoke;
 
-import sun.misc.Unsafe;
-import java.lang.reflect.Method;
-import java.util.Arrays;
-import sun.invoke.util.VerifyAccess;
-import static java.lang.invoke.MethodHandleNatives.Constants.*;
-import static java.lang.invoke.LambdaForm.*;
-import static java.lang.invoke.MethodTypeForm.*;
-import static java.lang.invoke.MethodHandleStatics.*;
-import java.lang.ref.WeakReference;
-import java.lang.reflect.Field;
 import sun.invoke.util.ValueConversions;
+import sun.invoke.util.VerifyAccess;
 import sun.invoke.util.VerifyType;
 import sun.invoke.util.Wrapper;
+import sun.misc.Unsafe;
+
+import java.lang.ref.WeakReference;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+
+import static java.lang.invoke.LambdaForm.*;
+import static java.lang.invoke.MethodHandleNatives.Constants.*;
+import static java.lang.invoke.MethodHandleStatics.*;
+import static java.lang.invoke.MethodTypeForm.*;
 
 /**
  * The flavor of method handle which implements a constant reference
@@ -572,7 +574,7 @@ class DirectMethodHandle extends MethodHandle {
         assert(ftypeKind(needsCast ? String.class : ft) == ftypeKind);
         String tname  = fw.primitiveSimpleName();
         String ctname = Character.toUpperCase(tname.charAt(0)) + tname.substring(1);
-        if (isVolatile)  ctname += "Volatile";
+        if (isVolatile)  ctname += "TestVolatile";
         String getOrPut = (isGetter ? "get" : "put");
         String linkerName = (getOrPut + ctname);  // getObject, putIntVolatile, etc.
         MethodType linkerType;

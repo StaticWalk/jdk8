@@ -242,7 +242,7 @@ public abstract class VolatileImage extends Image implements Transparency
     public abstract Graphics2D createGraphics();
 
 
-    // Volatile management methods
+    // TestVolatile management methods
 
     /**
      * Attempts to restore the drawing surface of the image if the surface

@@ -24,7 +24,6 @@ public class RuntimeConstantPoolOOM {
 //	}
 
 
-
 	//jdk1.7后，intern()不会把首次遇见的字符串实例复制到方法区永久代中，只在常量池中记录首次出现的实例引用，
 	// 		而StringBuffer创建的对象实例会在Java堆上。
 	// 		调用intern()返回的引用和StringBuffer创建的字符串实例是同一个。

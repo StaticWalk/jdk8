@@ -24,8 +24,6 @@
  */
 package javax.swing.plaf.nimbus;
 
-import java.awt.GraphicsConfiguration;
-import java.awt.Image;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.util.Arrays;
@@ -99,7 +97,7 @@ class ImageCache {
     /**
      * Get the cached image for given keys
      *
-     * @param config The graphics configuration, needed if cached image is a Volatile Image. Used as part of cache key
+     * @param config The graphics configuration, needed if cached image is a TestVolatile Image. Used as part of cache key
      * @param w      The image width, used as part of cache key
      * @param h      The image height, used as part of cache key
      * @param args   Other arguments to use as part of the cache key
@@ -124,7 +122,7 @@ class ImageCache {
      * Sets the cached image for the specified constraints.
      *
      * @param image  The image to store in cache
-     * @param config The graphics configuration, needed if cached image is a Volatile Image. Used as part of cache key
+     * @param config The graphics configuration, needed if cached image is a TestVolatile Image. Used as part of cache key
      * @param w      The image width, used as part of cache key
      * @param h      The image height, used as part of cache key
      * @param args   Other arguments to use as part of the cache key

@@ -25,11 +25,11 @@
 
 package java.util;
 
-import java.io.*;
-import java.util.concurrent.ThreadLocalRandom;
+import java.io.IOException;
+import java.io.StreamCorruptedException;
 import java.util.function.BiConsumer;
-import java.util.function.Function;
 import java.util.function.BiFunction;
+import java.util.function.Function;
 
 /**
  * This class implements a hash table, which maps keys to values. Any
@@ -462,7 +462,7 @@ public class Hashtable<K,V>
         // Makes sure the key is not already in the hashtable.
         Entry<?,?> tab[] = table;
         int hash = key.hashCode();
-        int index = (hash & 0x7FFFFFFF) % tab.length;
+        int index = (hash & 0x7FFFFFFF) % tab.length;//？？？？
         @SuppressWarnings("unchecked")
         Entry<K,V> entry = (Entry<K,V>)tab[index];
         for(; entry != null ; entry = entry.next) {
