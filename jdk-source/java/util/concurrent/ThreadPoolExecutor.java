@@ -988,8 +988,8 @@ public class ThreadPoolExecutor extends AbstractExecutorService {
 
                     if (rs < SHUTDOWN ||
                         (rs == SHUTDOWN && firstTask == null)) {
-                        //如果线程是RUNNING 或者 SHUTDOWN而且firstTask为null 那么需要创建一个新县城
-                        //
+                        //如果线程是RUNNING 或者 SHUTDOWN而且firstTask为null 那么需要创建一个新线程
+                        //其实在这里有个疑问，为什么在shutdown了之后，不检查workQueue的长度？？  --在execute中的workerqueue已经检测过
                         if (t.isAlive()) // precheck that t is startable
                             throw new IllegalThreadStateException();
                         workers.add(w);
