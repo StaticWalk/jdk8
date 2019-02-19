@@ -22,6 +22,7 @@ public class FailFast {
 	}
 
 	private static class threadOne extends Thread{
+		@Override
 		public void run() {
 			Iterator<Integer> iterator = list.iterator();
 			while(iterator.hasNext()){
@@ -37,6 +38,7 @@ public class FailFast {
 	}
 
 	private static class threadTwo extends Thread{
+		@Override
 		public void run(){
 			int i = 0 ;
 			while(i < 6){

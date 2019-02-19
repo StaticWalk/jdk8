@@ -13,12 +13,12 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  *HashMap不安全，多个线程同时put，hash的数组相同时，会造成闭环，在进行get的时候就会出现死循环
  *
- * ConcurrentHashMap  锁分离技术，将锁的粒度降低，使用多个锁来控制多个小的table
+ * ConcurrentHashMap  锁分离技术，将锁的粒度降低，使用多个锁来控制多个小的hashEntry
  * 高并发场景下性能优于HashMap很多
  *
  * 1.7采用了分段锁技术(对实现了ReentrantLock的segment加锁)
  * 	Segment数组(加锁的最小单位) + HashEntry数组(数组+链表)  需要进行两次hash
- * 	ssize数组大小  capHashEntry的数组大小  都是通过移位计算得到所以都是2的次方倍
+ * 	ssize数组大小  cap HashEntry的数组大小  都是通过移位计算得到所以都是2的次方倍
  * 	segment实现了ReentrantLock，带有锁的功能
  * 	put：
  * 	第一次key的hash来定位segment的位置，segment未初始化，CAS进行赋值
@@ -28,7 +28,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 	类似HashMap，两次hash后遍历链表，成功就返回，否则返回null
  *
  * 	size:
- * 	1.使用不加锁多次计算ConcurrentHashMap的size，最多三次，比较前两次的结果，结果一直就认为当前没有新元素加入
+ * 	1.使用不加锁多次计算ConcurrentHashMap的size，最多三次，比较前两次的结果，结果一直相同就认为当前没有新元素加入
  * 	2.第一种方案失败后，对每个Segment加上锁，然后计算ConcurrentHashMap的size
  *
  *
@@ -42,7 +42,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * 		helpTransfer()目的是多个线程帮助进行扩容，效率更高
  * 		ForwardingNode用来支持扩容操作
  * 		transfer()：将已处理结点和空结点标记ForwardingNode,并发遍历的时候遇到ForwardingNode标记就往后遍历
- *	 	？？？插入了原链表和倒序链表
+ *	 	？？？插入了原链表和倒序链表，用了Synchronized来锁住节点进行后面的节点复制
  * 4.存在hash冲突的话，对node加锁保证线程安全，然后插入数据，链表的话放到队尾，红黑树就按红黑树结构插入
  * 5.检查树化阈值，大于8了就转化为红黑树结构
  *  	treeifyBin（）如果整个table的数量小于64，就扩容至原来的一倍，不转红黑树,因为在这个阈值扩容可以减少hash冲突，不必要转红黑树

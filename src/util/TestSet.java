@@ -17,11 +17,17 @@ package util;
 public class TestSet {
 
 	public static void main(String[] args) {
+
+
+
+
+
+
+
 		System.out.println(solution(3,8));
 		System.out.println(solution(4,8));
 		System.out.println(solution(5,8));
-		System.out.println(solution(6,8));
-		System.out.println(solution(7,8));
+
 	}
 
 	static int solution(int h,int len){
