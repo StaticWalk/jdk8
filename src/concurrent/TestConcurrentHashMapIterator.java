@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  * transient 在实现了序列化的Serilizable接口，用于不需要序列化的属性前，这个属性就不会序列化到指定的目的地中
  *
- *HashMap不安全，多个线程同时put，hash的数组相同时，会造成闭环，在进行get的时候就会出现死循环
+ * HashMap不安全，多个线程同时put，hash的数组相同时，会造成闭环，在进行get的时候就会出现死循环
  *
  * ConcurrentHashMap  锁分离技术，将锁的粒度降低，使用多个锁来控制多个小的hashEntry
  * 高并发场景下性能优于HashMap很多

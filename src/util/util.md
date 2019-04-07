@@ -109,11 +109,14 @@ Enumeration是旧版的迭代器，Iterator代替了它，更安全，当一个�
     * Iterator能删除元素，Enumeration并不能删除元素
     
 8.ListIterator有什么特点    
-* ListIterator继承了Iterator接口，它用于遍历List集合的元素。
+* ListIterator继承了Iterator接口，专用于遍历List集合的元素。
 * ListIterator可以实现双向遍历,添加元素，设置元素
 
 9.并发集合类是什么？
-线程安全集合类，允许在迭代时修改集合。COpyOnWriteArrayList ConcurrentHashMap CopyOnWriteArraySet
+线程安全集合类，允许在迭代时修改集合。
+* CopyOnWriteArrayList 
+* ConcurrentHashMap 
+* CopyOnWriteArraySet
 
 10.Java中HashMap的key值要是为类对象则该类需要满足什么条件？
 需要重写这个类的hashCode()方法和equals()方法。如果equals方法认定对象相同，那么这两者的hash值就应该相同。

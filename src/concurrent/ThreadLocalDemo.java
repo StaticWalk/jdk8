@@ -10,6 +10,10 @@ import java.util.concurrent.CountDownLatch;
  * ThreadLocal为解决多线程程序的并发问题提供了一种新思路
  * 			  目的是为了解决多线程访问时的共享问题   ?? 错误的理解
  *
+ * 并不能解决多线程共享变量的问题，变量不共享就说明不存在同步问题
+ * 使用场景：每个线程需要自己独立的实例而且该实例会在多个方法中被使用，
+ * 		变量在线程间隔离、方法或类间共享
+ *
  * ThreadLocal 适用于每个线程需要自己独立的实例且该实例需要在多个方法中被使用，也即变量在线程间隔离而在方法或类间共享的场景。
  *
  * ThreadLocal维护线程和实例的映射  1.线程的增删需要保证线程安全 2.映射回收/内存泄漏问题
@@ -38,7 +42,7 @@ public class ThreadLocalDemo {
 				}
 				innerClass.set("hello world");
 				countDownLatch.countDown();
-			}, "thread - " + i).start();
+			}, "thread-" + i).start();
 		}
 		countDownLatch.await();
 	}

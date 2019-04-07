@@ -344,7 +344,7 @@ public class ThreadLocal<T> {
         }
 
         /**
-         * Increment i modulo len.
+         * Increment i modulo len.thread
          */
         private static int nextIndex(int i, int len) {
             return ((i + 1 < len) ? i + 1 : 0);

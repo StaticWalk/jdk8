@@ -12,6 +12,9 @@ import java.util.AbstractList;
  */
 public class TestAbstractList {
 	public static void main(String[] args) {
+
+		int a[]={1,2,3};
+
 		AbstractList al=new AbstractList() {
 			@Override
 			public Object get(int index) {

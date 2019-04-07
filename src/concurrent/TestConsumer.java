@@ -9,10 +9,15 @@ import java.util.Queue;
  * Time:15:55
  */
 public class TestConsumer {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		MyBlockingQueue<String> queue=new MyBlockingQueue<>(10);
-		new Producer(queue).start();
-		new Consumer(queue).start();
+		for (int i = 0; i < 5; i++) {
+			new Producer(String.valueOf(i),queue).start();
+			new Consumer(String.valueOf(i),queue).start();
+		}
+		Thread.sleep(3000);
+//		new Producer(queue).start();
+//		new Consumer(queue).start();
 	}
 }
 
@@ -30,6 +35,7 @@ class MyBlockingQueue<E>{
 			wait();
 		}
 		queue.add(e);
+		System.out.println("producer "+Thread.currentThread().getName());
 		notifyAll();
 	}
 	//消费者消耗资源使用
@@ -39,25 +45,32 @@ class MyBlockingQueue<E>{
 		}
 		E e=queue.poll();
 		notifyAll();
+		System.out.println("consumer " + Thread.currentThread().getName());
+
 		return e;
 	}
+	public synchronized int size() throws InterruptedException{
+		return queue.size();
+	}
+
 }
 
 class Producer extends Thread{
 	MyBlockingQueue<String> queue;
-	public Producer(MyBlockingQueue queue){
+	public Producer(String name,MyBlockingQueue queue){
+		this.setName(name);
 		this.queue=queue;
 	}
 	 @Override
 	 public void run() {
-		 int num=0;
 		 try{
+
 		 	while (true){
-		 		String task=String.valueOf(num);
-		 		queue.put(task);
-				System.out.println("produce task"+ task);
-				num++;
 				Thread.sleep((int)(Math.random()*1000));
+
+				String task=String.valueOf(Math.random());
+		 		queue.put(task);
+//				System.out.println("Producer " + getName()+",produce size"+ queue.size());
 
 			}
 		 } catch (InterruptedException e) {
@@ -68,16 +81,17 @@ class Producer extends Thread{
 
 class Consumer extends Thread{
 	MyBlockingQueue<String> queue;
-	public Consumer(MyBlockingQueue queue){
+	public Consumer(String name,MyBlockingQueue queue){
+		this.setName(name);
 		this.queue=queue;
 	}
 	@Override
 	public void run() {
 		try{
 			while (true){
-				String task=queue.take();
-				System.out.println("consume task"+ task);
 				Thread.sleep((int)(Math.random()*1000));
+				queue.take();
+//				System.out.println("Consumer " + getName()+",consume size"+ queue.size());
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();
