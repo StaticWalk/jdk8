@@ -36,7 +36,7 @@ public class Singleton {
 //	}
 
 	//4.双重锁/双重校验所 DCL double-checked locking
-	//双锁机制 多线程下保持高性能
+	//双锁机制 多线程下保持高性能 避免每次都加锁
 	//volatile禁止指令重排序 可见性
 	//
 //	private volatile static Singleton instance;

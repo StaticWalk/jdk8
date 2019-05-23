@@ -62,7 +62,6 @@ public class Mutex implements Lock,Serializable{
 		}
 	}
 
-
 	// The sync object does all the hard work. We just forward to it.
 	private final Sync sync = new Sync();
 	//使用同步器的模板方法实现自己的同步语义
